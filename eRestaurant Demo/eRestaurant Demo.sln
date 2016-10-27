@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{B7FBCE54-B455-44CA-8008-C08F84AC2CEB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{b1f1219d-a0c9-4097-82ce-7fd4a6372995}|eRestaurant.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_17393"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17393\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_17393"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_17393\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "17393"
+		SlnRelativePath = "Website\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurant", "eRestaurant\eRestaurant.csproj", "{B1F1219D-A0C9-4097-82CE-7FD4A6372995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7FBCE54-B455-44CA-8008-C08F84AC2CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FBCE54-B455-44CA-8008-C08F84AC2CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FBCE54-B455-44CA-8008-C08F84AC2CEB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FBCE54-B455-44CA-8008-C08F84AC2CEB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B1F1219D-A0C9-4097-82CE-7FD4A6372995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F1219D-A0C9-4097-82CE-7FD4A6372995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F1219D-A0C9-4097-82CE-7FD4A6372995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F1219D-A0C9-4097-82CE-7FD4A6372995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
